@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Setup Node.Js Environment
-        uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@1.4.2
         with:
           version: 12
 
